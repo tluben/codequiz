@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h5>Timer:<span id="timer">0</span></h5>
+        <button type="button" class="btn btn-primary" id="start" onclick="myFunction()">Start</button>
+        <div id="quiz" class= "hide">
+            <h3 id = "question">Question goes here</h3>
+            <button type="button" class="btn btn-primary ans" id="0">0</button>
+            <button type="button" class="btn btn-primary ans" id="1">1</button>
+            <button type="button" class="btn btn-primary ans" id="2">2</button>
+            <button type="button" class="btn btn-primary ans" id="3">3</button>
+
+        </div>
+        <div id="results" class = "hide">
+            <h3>Your Score:<span id ="score"></span></h3>
+            <form>
+                Enter Initials:<br>
+                <input id="score-input" type="text" name="initials">
+                <br>
+                <input id="score-btn" type="button" value="Submit">
+              </form> 
+        </div>
+        <div id="top-scores" class="hide">
+            <ul id="top">hide</ul>
+        </div>
+    </div>
+    <script src="./assets/js/question.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
