@@ -1,13 +1,18 @@
 var questions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      title: "Who won NBA championship in 2008?",
+      choices: ["Lakers", "Celtics", "Pistons", "76ers"],
+      answer: "Lakers"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "Who won NBA championship in 2013?",
+      choices: ["Lakers", "Spurs", "Bulls", "76ers"],
+      answer: "Spurs"
+    },
+    {
+      title: "Who won NBA championship in 2015?",
+      choices: ["Warriors", "Celtics", "Bulls", "76ers"],
+      answer: "Warriors"
     },
     
   ];
